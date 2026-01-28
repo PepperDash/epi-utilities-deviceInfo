@@ -40,3 +40,49 @@ If you need a different version of PepperDash Core, use the command `nuget insta
 See the Task List in Visual Studio for a guide on how to start using the templage.  There is extensive inline documentation and examples as well.
 
 For renaming instructions in particular, see the XML `remarks` tags on class definitions
+<!-- START Minimum Essentials Framework Versions -->
+### Minimum Essentials Framework Versions
+
+- 1.6.4
+<!-- END Minimum Essentials Framework Versions -->
+<!-- START Supported Types -->
+### Supported Types
+
+- examplePluginCrestronDevice
+- examplePluginDevice
+- examplePluginLogicDevice
+<!-- END Supported Types -->
+<!-- START Join Maps -->
+
+<!-- END Join Maps -->
+<!-- START Interfaces Implemented -->
+
+<!-- END Interfaces Implemented -->
+<!-- START Base Classes -->
+### Base Classes
+
+- EssentialsBridgeableDevice
+- JoinMapBaseAdvanced
+- CrestronGenericBridgeableBaseDevice
+<!-- END Base Classes -->
+<!-- START Public Methods -->
+### Public Methods
+
+- public void SendText(string text)
+- public void SendBytes(byte[] bytes)
+- public void Poll()
+<!-- END Public Methods -->
+<!-- START Bool Feedbacks -->
+### Bool Feedbacks
+
+- ConnectFeedback
+- OnlineFeedback
+<!-- END Bool Feedbacks -->
+<!-- START Int Feedbacks -->
+### Int Feedbacks
+
+- StatusFeedback
+<!-- END Int Feedbacks -->
+<!-- START String Feedbacks -->
+
+<!-- END String Feedbacks -->
